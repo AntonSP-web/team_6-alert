@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'GolosTextWebBlack';
 	src:
-		url('Golos-Text_Black.woff2') format('woff2'),
-		url('Golos-Text_Black.woff') format('woff');
+		url(./fonts/Golos-Text_Black.woff2) format('woff2'),
+		url(./fonts/Golos-Text_Black.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
 	font-family: 'GolosTextWebDemiBold';
 	src:
-		url('Golos-Text_DemiBold.woff2') format('woff2'),
-		url('Golos-Text_DemiBold.woff') format('woff');
+		url(./fonts/Golos-Text_DemiBold.woff2) format('woff2'),
+		url(./fonts/Golos-Text_DemiBold.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
 	font-family: 'GolosTextWebBold';
 	src:
-		url('Golos-Text_Bold.woff2') format('woff2'),
-		url('Golos-Text_Bold.woff') format('woff');
+		url(./fonts/Golos-Text_Bold.woff2) format('woff2'),
+		url(./fonts/Golos-Text_Bold.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,8 +28,8 @@
 @font-face {
 	font-family: 'GolosTextWebMedium';
 	src:
-		url('Golos-Text_Medium.woff2') format('woff2'),
-		url('Golos-Text_Medium.woff') format('woff');
+		url(./fonts/Golos-Text_Medium.woff2) format('woff2'),
+		url(./fonts/Golos-Text_Medium.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -37,8 +37,8 @@
 @font-face {
 	font-family: 'GolosTextWebRegular';
 	src:
-		url('Golos-Text_Regular.woff2') format('woff2'),
-		url('Golos-Text_Regular.woff') format('woff');
+		url(./fonts/Golos-Text_Regular.woff2) format('woff2'),
+		url(./fonts/Golos-Text_Regular.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -46,8 +46,8 @@
 @font-face {
 	font-family: 'GolosTextWebVF';
 	src:
-		url('Golos-Text_VF.woff2') format('woff2'),
-		url('Golos-Text_VF.woff') format('woff');
+		url(./fonts/Golos-Text_VF.WOFF2) format('woff2'),
+		url(./fonts/Golos-Text_VF.WOFF) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
