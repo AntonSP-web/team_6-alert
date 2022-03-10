@@ -1,0 +1,7 @@
+.button__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
+  flex-grow: 1;
+}
