@@ -5,9 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Страница урока / Видео</title>
-  <link rel="stylesheet" href="./pages/video.css">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./index.html">
+						<img class="menu__icon" src="./images/header/logo-course.svg" alt="Курсы">Курсы
+					</a>
+				</li>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/header/logo-profile.svg" alt="Профиль">Профиль
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
   <section class="sidebar">
     <h2 class="sidebar__heading">Содержание</h2>
     <nav>
@@ -18,7 +37,10 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-down"></button>
           </div>
           <ul class="sidebar__list-activity sidebar__list-activity_closed">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_lesson"></div>Урок</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_lesson"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
           </ul>
         </li>
 
@@ -28,7 +50,10 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-down"></button>
           </div>
           <ul class="sidebar__list-activity sidebar__list-activity_closed">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_lesson"></div>Урок</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_lesson"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
           </ul>
         </li>
 
@@ -38,11 +63,26 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-up"></button>
           </div>
           <ul class="sidebar__list-activity">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Урок</li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Вебинар</li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Урок</li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Видео</li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Тест</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Вебинар</a>
+            </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Видео</a>
+            </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Тест</a>
+            </li>
           </ul>
         </li>
 
@@ -52,7 +92,10 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-up"></button>
           </div>
           <ul class="sidebar__list-activity">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Вебинар</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Вебинар</a>
+            </li>
           </ul>
         </li>
 
@@ -62,12 +105,26 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-up"></button>
           </div>
           <ul class="sidebar__list-activity">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Дрессировка поисково-спасательных собак
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Дрессировка поисково-спасательных собак</a>
             </li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Вебинар</li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_checked"></div>Урок</li>
-            <li class="sidebar__item-activity sidebar__item-activity_active"><div class="sidebar__icon sidebar__icon_type_video_active"></div>Видео</li>
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_test"></div>Тест</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+                <a href="#" class="sidebar__link">Вебинар</a>
+              </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_checked"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_video_active"></div>
+              <a href="#" class="sidebar__link sidebar__link_active">Видео</a>
+            </li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_test"></div>
+              <a href="#" class="sidebar__link">Тест</a>
+            </li>
           </ul>
         </li>
 
@@ -77,7 +134,10 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-down"></button>
           </div>
           <ul class="sidebar__list-activity sidebar__list-activity_closed">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_lesson"></div>Урок</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_lesson"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
           </ul>
         </li>
 
@@ -87,7 +147,10 @@
             <button type="button" class="sidebar__button sidebar__button_type_arrow-down"></button>
           </div>
           <ul class="sidebar__list-activity sidebar__list-activity_closed">
-            <li class="sidebar__item-activity"><div class="sidebar__icon sidebar__icon_type_lesson"></div>Урок</li>
+            <li class="sidebar__item-activity">
+              <div class="sidebar__icon sidebar__icon_type_lesson"></div>
+              <a href="#" class="sidebar__link">Урок</a>
+            </li>
           </ul>
         </li>
       </ul>

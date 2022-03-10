@@ -1,0 +1,8 @@
+.sidebar__link {
+  text-decoration: none;
+  color: #212329;
+}
+
+.sidebar__link:hover {
+  opacity: 0.8;
+}
