@@ -1,0 +1,7 @@
+.navigation__link_active {
+  color: #9397a3;
+}
+
+.navigation__link_active::after {
+  content: "";
+}
