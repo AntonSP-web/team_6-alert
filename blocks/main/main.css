@@ -1,6 +1,4 @@
-.main{
-  /* display: flex;
-  justify-content: space-between; */
+.main {
   padding: 32px 60px 97px 60px;
   display: grid;
   grid-template-columns: 1fr minmax(250px, 424px);
