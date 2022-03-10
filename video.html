@@ -28,17 +28,27 @@
 	</header>
   <main class="main">
     <section class="video">
-      <h2 class="video__title">Видео</h2>
-      <div class="video__content">
-        <div class="video__row">
-          <button type="button" class="video__play"></button>
-          <button type="button" class="video__timeline"></button>
-          <div class="video__buttons-container">
-            <button type="button" class="video__sound"></button>
-            <button type="button" class="video__volume"></button>
+      <div class="video__container">
+        <h2 class="video__title">Видео</h2>
+        <div class="video__content">
+          <div class="video__row">
+            <button type="button" class="video__play"></button>
+            <button type="button" class="video__timeline"></button>
+            <div class="video__buttons-container">
+              <button type="button" class="video__sound"></button>
+              <button type="button" class="video__volume"></button>
+            </div>
+            <button type="button" class="video__fullscreen"></button>
           </div>
-          <button type="button" class="video__fullscreen"></button>
         </div>
+      </div>
+      <div class="video__button-container button-container">
+        <button type="button" class="button button__previous">
+          <a href="#" class="button__link button__link_type_previous">Назад</a>
+        </button>
+        <button type="button" class="button button__next">
+          <a href="#" class="button__link button__link_type_next">Далее</a>
+        </button>
       </div>
     </section>
     <section class="sidebar">
@@ -171,13 +181,5 @@
       </nav>
     </section>
   </main>
-  <div class="button-container">
-    <button type="button" class="button button__previous">
-      <a href="#" class="button__link button__link_type_previous">Назад</a>
-    </button>
-    <button type="button" class="button button__next">
-      <a href="#" class="button__link button__link_type_next">Далее</a>
-    </button>
-  </div>
 </body>
 </html>
