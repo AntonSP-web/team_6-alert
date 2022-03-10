@@ -1,0 +1,12 @@
+.test-preview__attempts{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-image: url(../../../images/test-preview/reset.svg);
+  background-repeat: no-repeat;
+  background-position-x: 3px;
+  background-position-y: center;
+  background-size: 20px 20px;
+  padding: 0 0 0 35px;
+  margin: 0 0 16px 0;
+}
