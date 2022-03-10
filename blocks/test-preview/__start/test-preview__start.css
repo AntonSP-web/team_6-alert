@@ -1,0 +1,13 @@
+.test-preview__start{
+  min-width: 180px;
+  padding: 12px 4px;
+  margin: 0;
+  border: none;
+  background-color: #FF6600;
+  border-radius: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
