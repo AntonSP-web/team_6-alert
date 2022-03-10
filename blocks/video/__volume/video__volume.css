@@ -1,0 +1,12 @@
+.video__volume{
+  background-image: url(../../../images/video/volume.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px 20px;
+  background-color: transparent;
+  border: none;
+  width: 85px;
+  height: 20px;
+  cursor: pointer;
+  padding: 0;
+}

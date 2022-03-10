@@ -1,0 +1,9 @@
+.page{
+  font-family: 'Golos',Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #FCFCFC;
+  color: #212329;
+}

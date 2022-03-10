@@ -1,0 +1,12 @@
+.video__fullscreen{
+  background-image: url(../../../images/video/fullscreen.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  padding: 0;
+}
