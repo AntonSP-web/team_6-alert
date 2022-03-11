@@ -1,0 +1,4 @@
+.test-result__item_type_error {
+  background: url(../../../../images/test-result/marker_error.svg) no-repeat;
+  color: #FF0000;
+}

@@ -1,0 +1,12 @@
+.test-result__btn_theme_pass {
+  border: 1.2px solid #E6E7EB;
+  background: #FFFFFF;
+  color: #FF6600;
+}
+
+
+.test-result__btn_theme_pass:hover {
+  background: #dddada;
+  cursor: pointer;
+  transition: background .3s ease;
+}

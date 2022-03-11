@@ -1,0 +1,11 @@
+.test-result__total {
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 30px;
+}
+
+

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Страница урока / Тест</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./pages/test-resalt.css">
 </head>
 <body>
   <header class="header">
@@ -164,5 +165,41 @@
       <a href="#" class="button__link button__link_type_next">Далее</a>
     </button>
   </div>
+
+  <section class="test-result">
+    <div class="test-result__header">
+      <h2 class="test-result__title">Тест</h2>
+      <a class="test-result__link" href="#">Посмотреть условия</a>
+    </div>
+
+    <ol class="test-result__list">
+      <li class="test-result__list-title">В каких случаях перспективно применение следовых кинологических расчётов&quest;
+        <ul class="test-result__items">
+          <li class="test-result__item test-result__item_type_ok">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</li>
+          <li class="test-result__item test-result__item_type_true">Обучение животного идти как по горячему, так и по остывшему следу</li>
+          <li class="test-result__item test-result__item_type_ok">Поиск тел и их остатков с применением специально обученных собак</li>
+        </ul>
+      </li>
+      <li class="test-result__list-title">С какого возраста следует начинать дрессировку по курсу ПСС&quest;
+        <ul class="test-result__items">
+          <li class="test-result__item test-result__item_type_false">6 месяцев</li>
+          <li class="test-result__item test-result__item_type_ok">1–1,5 года</li>
+          <li class="test-result__item test-result__item_type_false">3 года</li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="test-result__total test-result__total_theme_pass">
+      <p class="test-result__rate">83&#37;</p>
+        <p class="test-result__total-title">К сожалению, вы не набрали проходной результат.</p>
+        <p class="test-result__total-text">Нажмите «Пересдать», чтобы попробовать снова.</p>
+    </div>
+
+
+    <button class="test-result__btn test-result__btn_theme_pass" type="submit" name="retake">
+      <span class="test-result__btn-text test-result__btn-text_type_pass">Пересдать</span>
+    </button>
+  </section>
+
 </body>
 </html>

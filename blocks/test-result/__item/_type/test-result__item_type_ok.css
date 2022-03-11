@@ -1,0 +1,4 @@
+.test-result__item_type_ok {
+  background: url(../../../../images/test-result/marker_OK.svg) no-repeat;
+  color: #008000;
+}
