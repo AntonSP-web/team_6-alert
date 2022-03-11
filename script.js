@@ -18,3 +18,20 @@ sideBarList.addEventListener('click', (evt) => {
     listActivity.classList.add('sidebar__list-activity_closed');
   }
 });
+var $sliderVolume = $(".video__volume #slider");
+var $fillVolume = $(".video__volume .video__fill");
+var $sliderTimeline = $(".video__slider #slider");
+var $fillTimeline = $(".video__slider .video__fill");
+
+function setBarVolume() {
+	$fillVolume.css("width", $sliderVolume.val() + "%");
+};
+function setBarTimeline() {
+	$fillTimeline.css("width", $sliderTimeline.val() + "%");
+};
+$sliderTimeline.on("input", setBarTimeline);
+$sliderVolume.on("input", setBarVolume);
+setBarTimeline();
+setBarVolume();
+
+
