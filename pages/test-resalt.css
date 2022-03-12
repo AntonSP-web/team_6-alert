@@ -14,6 +14,7 @@
 @import url(../blocks/test-result/__item/_type/test-result__item_type_error.css);
 @import url(../blocks/test-result/__item/_type/test-result__item_type_true.css);
 @import url(../blocks/test-result/__item/_type/test-result__item_type_false.css);
+@import url(../blocks/test-result/__item/_type/test-result__item_type_form.css);
 
 @import url(../blocks/test-result/__total/test-result__total.css);
 @import url(../blocks/test-result/__rate/test-result__rate.css);
@@ -25,10 +26,16 @@
 @import url(../blocks/test-result/__btn/test-result__btn.css);
 @import url(../blocks/test-result/__btn/_theme/test-result__btn_theme_not-pass.css);
 @import url(../blocks/test-result/__btn/_theme/test-result__btn_theme_pass.css);
+@import url(../blocks/test-result/__btn/_theme/test-result__btn_theme_not-active.css);
 @import url(../blocks/test-result/__btn-text/test-result__btn-text.css);
 @import url(../blocks/test-result/__btn-text/_type/test-result__btn-text_type_pass.css);
 @import url(../blocks/test-result/__btn-text/_type/test-result__btn-text_type_not-pass.css);
 
+@import url(../blocks/form-test/__check/form-test__check.css);
+@import url(../blocks/form-test/__visible-check/form-test__visible-check.css);
+@import url(../blocks/form-test/__visible-check/_type/form-test__visible-check_type_checkbox.css);
+@import url(../blocks/form-test/__visible-check/_type/form-test__visible-check_type_radio.css);
+@import url(../blocks/form-test/__question/form-test__question.css);
 
 
 

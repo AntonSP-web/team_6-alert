@@ -38,47 +38,69 @@
     </nav>
 
     <section class="wrapper">
-
-
-
-
-
       <div class="test-result">
         <div class="test-result__header">
           <h2 class="test-result__title">Тест</h2>
           <a class="test-result__link" href="#">Посмотреть условия</a>
         </div>
+        <form class="form-test" name="form-questions">
+          <ol class="test-result__list">
+            <li class="test-result__list-title">В каких случаях перспективно применение следовых кинологических расчётов&quest;
+              <fieldset class="form-test__question">
+                <ul class="test-result__items">
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantOne" value="checkVariantOne">
+                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantTwoe" value="checkVariantTwoe">
+                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Обучение животного идти как по горячему, так и по остывшему следу </span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantThree" value="checkVariantThree">
+                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Поиск тел и их остатков с применением специально обученных собак</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+            <li class="test-result__list-title">С какого возраста следует начинать дрессировку по курсу ПСС&quest;
+              <ul class="test-result__items">
+                <fieldset class="form-test__question">
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantOne" value="radiokVariantOne">
+                      <span class="form-test__visible-check form-test__visible-check_type_radio">6 месяцев</span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantTwo" value="radiokVariantTwo">
+                      <span class="form-test__visible-check form-test__visible-check_type_radio">1–1,5 года</span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantThree" value="radiokVariantThree">
+                      <span class="form-test__visible-check form-test__visible-check_type_radio">3 годав</span>
+                    </label>
+                  </li>
+              </fieldset>
+              </ul>
+            </li>
+          </ol>
+        </form>
 
-        <ol class="test-result__list">
-          <li class="test-result__list-title">В каких случаях перспективно применение следовых кинологических расчётов&quest;
-            <ul class="test-result__items">
-              <li class="test-result__item test-result__item_type_ok">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</li>
-              <li class="test-result__item test-result__item_type_true">Обучение животного идти как по горячему, так и по остывшему следу</li>
-              <li class="test-result__item test-result__item_type_ok">Поиск тел и их остатков с применением специально обученных собак</li>
-            </ul>
-          </li>
-          <li class="test-result__list-title">С какого возраста следует начинать дрессировку по курсу ПСС&quest;
-            <ul class="test-result__items">
-              <li class="test-result__item test-result__item_type_false">6 месяцев</li>
-              <li class="test-result__item test-result__item_type_ok">1–1,5 года</li>
-              <li class="test-result__item test-result__item_type_false">3 года</li>
-            </ul>
-          </li>
-        </ol>
-
-        <div class="test-result__total test-result__total_theme_pass">
-          <p class="test-result__rate">83&#37;</p>
-          <p class="test-result__total-title">Отличный результат!</p>
-          <p class="test-result__total-text">Нажите «Далее» чтобы продолжить</p>
-          <p class="test-result__total-text">Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет хуже, засчитается наивысший результат.</p>
-        </div>
-
-
-
-        <button class="test-result__btn test-result__btn_theme_pass" type="submit" name="retake">
-          <span class="test-result__btn-text test-result__btn-text_type_pass">Пересдать</span>
+        <button class="test-result__btn test-result__btn_theme_not-active" type="submit" name="retake">
+          <span class="test-result__btn-text">Показать результат</span>
         </button>
       </div>
+
 
       <div class="button-container">
         <button type="button" class="button button__previous">
