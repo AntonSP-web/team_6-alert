@@ -74,6 +74,7 @@
 @import url(../blocks/kyrs-result/__title/kyrs-result_list__title.css);
 @import url(../blocks/kyrs-result/kyrs-result.css);
 @import url(../blocks/container/container.css);
+@import url(../blocks/test/test.css);
 @import url(../blocks/test/__header/test__header.css);
 @import url(../blocks/test/__title/test__title.css);
 @import url(../blocks/test/__question/test__question.css);
