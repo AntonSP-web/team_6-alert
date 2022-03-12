@@ -1,8 +1,6 @@
 .test-result__btn {
-  margin: 32px auto;
-  padding: 0;
-  width: 176px;
-  height: 48px;
+  margin: 32px auto 0;
+  padding: 11px 22px;
   border-radius: 16px;
   font-weight: 500;
   font-size: 18px;
