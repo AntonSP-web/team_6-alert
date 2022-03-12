@@ -67,3 +67,9 @@
 @import url(../blocks/test-preview/__attempts/test-preview__attempts.css);
 @import url(../blocks/test-preview/__deadline/test-preview__deadline.css);
 @import url(../blocks/test-preview/__start/test-preview__start.css);
+@import url(../blocks/kyrs-result/__header/kyrs-result__header.css);
+@import url(../blocks/kyrs-result/__list/kyrs-result__list.css);
+@import url(../blocks/kyrs-result/__main-title/kyrs-result__main-title.css);
+@import url(../blocks/kyrs-result/__text/kyrs-result_list__text.css);
+@import url(../blocks/kyrs-result/__title/kyrs-result_list__title.css);
+@import url(../blocks/kyrs-result/kyrs-result.css);
