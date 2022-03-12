@@ -18,6 +18,16 @@ sideBarList.addEventListener('click', (evt) => {
     listActivity.classList.add('sidebar__list-activity_closed');
   }
 });
+
+const startTestButton = document.querySelector('.test-preview__start');
+const testPreview = document.querySelector('.test-preview__content');
+const testContainer = document.querySelector('.test');
+
+startTestButton.addEventListener('click', () => {
+  testPreview.classList.add('test');
+  testContainer.classList.remove('test');
+})
+
 var $sliderVolume = $(".video__volume #slider");
 var $fillVolume = $(".video__volume .video__fill");
 var $sliderTimeline = $(".video__slider #slider");
@@ -33,5 +43,6 @@ $sliderTimeline.on("input", setBarTimeline);
 $sliderVolume.on("input", setBarVolume);
 setBarTimeline();
 setBarVolume();
+
 
 
