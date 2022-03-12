@@ -54,6 +54,46 @@
         </div>
         <button class="test-preview__start" type="button">Начать тест</button>
       </div>
+
+      <div class="test container">
+        <div class="test__header">
+          <h2 class="test__title">Тест</h2>
+          <a href="#" class="test__link-conditions">Посмотреть условия</a>
+        </div>
+
+        <form action="#" class="test__form" name="dogs">
+          <div class="test__questions-separator">
+            <h3 class="test__question">1. В каких случаях перспективно применение следовых кинологических расчётов?</h3>
+
+            <p class="test__answer">
+              <label for="help-citizen"><input type="checkbox" class="test__checkbox" name="cases" id="help-citizen" value="help-citizen">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</label>
+            </p>
+            <p class="test__answer">
+              <label for="trace"><input type="checkbox" class="test__checkbox" name="cases" id="trace" value="trace">Обучение животного идти как по горячему, так и по остывшему следу</label>
+            </p>
+            <p class="test__answer">
+              <label for="bodies"><input type="checkbox" class="test__checkbox" name="cases" id="bodies" value="bodies">Поиск тел и их остатков с применением специально обученных собак</label>
+            </p>
+          </div>
+
+          <div class="test__questions-separator">
+            <h3 class="test__question">2. С какого возраста следует начинать дрессировку по курсу ПСС?</h3>
+            <p class="test__answer">
+              <label for="six-month"><input type="radio" class="test__radio" name="age" id="six-month" value="six-month">6 месяцев</label>
+            </p>
+            <p class="test__answer">
+              <label for="one-year"><input type="radio" class="test__radio" name="age" id="one-year" value="one-year">1–1,5 года</label>
+            </p>
+            <p class="test__answer">
+              <label for="three-years"><input type="radio" class="test__radio" name="age" id="three-years" value="three-years">3 года</label>
+            </p>
+          </div>
+          <div class="test__button-container">
+            <button class="test__button test__button_disabled" type="submit" disabled>Показать результат</button>
+          </div>
+        </form>
+      </div>
+
       <div class="button-container">
         <button type="button" class="button button__previous">
           <a href="./video.html" class="button__link button__link_type_previous">Назад</a>
@@ -63,6 +103,7 @@
         </button>
       </div>
     </section>
+
     <section class="sidebar">
       <h2 class="sidebar__heading">Содержание</h2>
       <nav>
