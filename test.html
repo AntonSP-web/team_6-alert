@@ -45,49 +45,51 @@
         </div>
 
         <form action="#" class="test__form" name="dogs">
-          <div class="test__questions-separator">
-            <h3 class="test__question">1. В каких случаях перспективно применение следовых кинологических расчётов?</h3>
-
-            <p class="test__answer">
-              <label for="help-citizen">
-                <input type="checkbox" class="test__checkbox" name="cases" id="help-citizen" value="help-citizen">
-                <span class="test__checkbox_visible">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="trace">
-                <input type="checkbox" class="test__checkbox" name="cases" id="trace" value="trace">
-                <span class="test__checkbox_visible">Обучение животного идти как по горячему, так и по остывшему следу</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="bodies">
-                <input type="checkbox" class="test__checkbox" name="cases" id="bodies" value="bodies">
-                <span class="test__checkbox_visible">Поиск тел и их остатков с применением специально обученных собак</span>
-              </label>
-            </p>
-          </div>
-
-          <div class="test__questions-separator">
-            <h3 class="test__question">2. С какого возраста следует начинать дрессировку по курсу ПСС?</h3>
-            <p class="test__answer">
-              <label for="six-month">
-                <input type="radio" class="test__radio" name="age" id="six-month" value="six-month">
-                <span class="test__radio_visible">6 месяцев</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="one-year"><input type="radio" class="test__radio" name="age" id="one-year" value="one-year">
-                <span class="test__radio_visible">1–1,5 года</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="three-years">
-                <input type="radio" class="test__radio" name="age" id="three-years" value="three-years">
-                <span class="test__radio_visible">3 года</span>
-              </label>
-            </p>
-          </div>
+          <ol class="test__questions-list">
+            <li class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?
+              <ul class="test__answer">
+                <li class="test__answer-item">
+                  <label for="help-citizen">
+                    <input type="checkbox" class="test__checkbox" name="cases" id="help-citizen" value="help-citizen">
+                    <span class="test__checkbox_visible">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+                  </label>
+                </li>
+                <li class="test__answer-item">
+                  <label for="trace">
+                    <input type="checkbox" class="test__checkbox" name="cases" id="trace" value="trace">
+                    <span class="test__checkbox_visible">Обучение животного идти как по горячему, так и по остывшему следу</span>
+                  </label>
+                </li>
+                <li class="test__answer-item">
+                  <label for="bodies">
+                    <input type="checkbox" class="test__checkbox" name="cases" id="bodies" value="bodies">
+                    <span class="test__checkbox_visible">Поиск тел и их остатков с применением специально обученных собак</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?
+              <ul class="test__answer">
+                <li class="test__answer-item">
+                  <label for="six-month">
+                    <input type="radio" class="test__radio" name="age" id="six-month" value="six-month">
+                    <span class="test__radio_visible">6 месяцев</span>
+                  </label>
+                </li>
+                <li class="test__answer-item">
+                  <label for="one-year"><input type="radio" class="test__radio" name="age" id="one-year" value="one-year">
+                    <span class="test__radio_visible">1–1,5 года</span>
+                  </label>
+                </li>
+                <li class="test__answer-item">
+                  <label for="three-years">
+                    <input type="radio" class="test__radio" name="age" id="three-years" value="three-years">
+                    <span class="test__radio_visible">3 года</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+          </ol>
 
           <div class="test__button-container">
             <button class="test__button test__button_disabled" type="submit" disabled>Показать результат</button>
