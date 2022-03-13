@@ -21,11 +21,11 @@ sideBarList.addEventListener('click', (evt) => {
 
 const startTestButton = document.querySelector('.test-preview__start');
 const testPreview = document.querySelector('.test-preview__content');
-const testContainer = document.querySelector('.test');
+const testClosed = document.querySelector('.container_closed');
 
 startTestButton.addEventListener('click', () => {
-  testPreview.classList.add('test');
-  testContainer.classList.remove('test');
+  testPreview.classList.add('container_closed');
+  testClosed.classList.remove('container_closed');
 })
 
 var $sliderVolume = $(".video__volume #slider");

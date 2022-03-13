@@ -74,14 +74,16 @@
 @import url(../blocks/kyrs-result/__title/kyrs-result_list__title.css);
 @import url(../blocks/kyrs-result/kyrs-result.css);
 @import url(../blocks/container/container.css);
-@import url(../blocks/test/test.css);
+@import url(../blocks/container/_closed/container_closed.css);
 @import url(../blocks/test/__header/test__header.css);
 @import url(../blocks/test/__title/test__title.css);
 @import url(../blocks/test/__question/test__question.css);
 @import url(../blocks/test/__answer/test__answer.css);
 @import url(../blocks/test/__link-conditions/test__link-conditions.css);
 @import url(../blocks/test/__checkbox/test__checkbox.css);
+@import url(../blocks/test/__checkbox/_visible/test__checkbox_visible.css);
 @import url(../blocks/test/__radio/test__radio.css);
+@import url(../blocks/test/__radio/_visible/test__radio_visible.css);
 @import url(../blocks/test/__questions-separator/test__questions-separator.css);
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_disabled/test__button_disabled.css);
