@@ -1,0 +1,5 @@
+.test__answer-item_type_true {
+  background: url(../../../../images/sidebar/checked.svg) no-repeat;
+  padding-left: 32px;
+  color: #008000;
+}

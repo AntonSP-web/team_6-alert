@@ -106,4 +106,14 @@
 @import url(../blocks/course-finished/__accent/course-finished__accent.css);
 @import url(../blocks/button/__link/_type/button__link_type_finish.css);
 @import url(../blocks/test/__answer-item/test__answer-item.css);
+@import url(../blocks/test/__answer-item/_type/test__answer-item_type_true.css);
+@import url(../blocks/test/__answer-item/_type/test__answer-item_type_no-choice.css);
+@import url(../blocks/test/__answer-item/_type/test__answer-item_type_false-choice.css);
+@import url(../blocks/test/__answer-item/_type/test__answer-item_type_false.css);
 @import url(../blocks/test/__questions-list/test__questions-list.css);
+@import url(../blocks/test/__message/test__message.css);
+@import url(../blocks/test/__rate/test__rate.css);
+@import url(../blocks/test/__message-text/test__message-text.css);
+@import url(../blocks/test/__message/_type/test__message_type_positive.css);
+@import url(../blocks/button/__link/_type/button__link_type_restart.css);
+@import url(../blocks/button/__link/_type/button__link_type_restart-positive.css);
