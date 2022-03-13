@@ -19,13 +19,23 @@ sideBarList.addEventListener('click', (evt) => {
   }
 });
 
-const startTestButton = document.querySelector('.test-preview__start');
-const testPreview = document.querySelector('.test-preview__content');
-const testClosed = document.querySelector('.container_closed');
+// const startTestButton = document.querySelector('.test-preview__start');
+// const testPreview = document.querySelector('.test-preview__content');
+// const testClosed = document.querySelector('.container_closed');
+
+// startTestButton.addEventListener('click', () => {
+//   testPreview.classList.add('container_closed');
+//   testClosed.classList.remove('container_closed');
+// })
+
+const test = document.querySelector('.test');
+const testPreview = test.querySelector('.test__preview');
+const startTestButton = test.querySelector('.test__button');
+const testContainer = test.querySelector('.test__container');
 
 startTestButton.addEventListener('click', () => {
   testPreview.classList.add('container_closed');
-  testClosed.classList.remove('container_closed');
+  testContainer.classList.remove('container_closed');
 })
 
 var $sliderVolume = $(".video__volume #slider");

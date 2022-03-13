@@ -94,6 +94,7 @@
 
 @import url(../blocks/test/__paragraph/test__paragraph.css);
 @import url(../blocks/test/__requirements/test__requirements.css);
+@import url(../blocks/test/__requirements-container/test__requirements-container.css);
 @import url(../blocks/test/__score/test__score.css);
 @import url(../blocks/test/__attempts/test__attempts.css);
 @import url(../blocks/test/__time/test__time.css);
