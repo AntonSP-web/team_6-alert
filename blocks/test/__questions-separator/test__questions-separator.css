@@ -1,8 +1,0 @@
-.test__questions-separator {
-  padding: 32px 0;
-  border-top: 1px solid #E6E7EB;
-}
-
-.test__questions-separator:first-child {
-  border-top: none;
-}

@@ -105,3 +105,5 @@
 @import url(../blocks/course-finished/__result-text/course-finished__result-text.css);
 @import url(../blocks/course-finished/__accent/course-finished__accent.css);
 @import url(../blocks/button/__link/_type/button__link_type_finish.css);
+@import url(../blocks/test/__answer-item/test__answer-item.css);
+@import url(../blocks/test/__questions-list/test__questions-list.css);
