@@ -1,3 +1,4 @@
 .test-result__btn-text_type_pass {
   background: url(../../../../images/test-result/test-result_buton-pass.svg) no-repeat;
+  padding-left: 33px;
 }
