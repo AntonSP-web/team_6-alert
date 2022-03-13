@@ -1,0 +1,12 @@
+.test__checkbox_visible {
+  display: inline-block;
+  background: #fff url(../../../../images/test/checked_off.svg) no-repeat;
+  background-size: 20px;
+  padding-left: 28px;
+}
+
+.test__checkbox:checked + .test__checkbox_visible {
+  background: #fff url(../../../../images/test/checked_on.svg) no-repeat;
+  background-size: 20px;
+  color: #f06000;
+}
