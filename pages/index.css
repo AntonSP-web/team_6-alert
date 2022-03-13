@@ -88,3 +88,13 @@
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_disabled/test__button_disabled.css);
 @import url(../blocks/test/__button-container/test__button-container.css);
+
+
+
+
+@import url(../blocks/test/__paragraph/test__paragraph.css);
+@import url(../blocks/test/__requirements/test__requirements.css);
+@import url(../blocks/test/__score/test__score.css);
+@import url(../blocks/test/__attempts/test__attempts.css);
+@import url(../blocks/test/__time/test__time.css);
+@import url(../blocks/test/__info/test__info.css);

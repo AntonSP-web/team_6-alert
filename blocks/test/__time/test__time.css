@@ -1,0 +1,5 @@
+.test__time {
+  background: url(../../../images/test/time.svg) no-repeat;
+  background-size: 20px;
+  padding-left: 32px;
+}
