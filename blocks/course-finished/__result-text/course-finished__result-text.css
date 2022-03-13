@@ -1,0 +1,9 @@
+.course-finished__result-text {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.course-finished__result-text:last-child {
+  margin: 0;
+}
