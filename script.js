@@ -18,6 +18,16 @@ sideBarList.addEventListener('click', (evt) => {
     listActivity.classList.add('sidebar__list-activity_closed');
   }
 });
+const videoSlider = document.querySelector('.video__slider .video__timeline');
+const progressSlider = document.querySelector('.video__slider .video__fill');
+const videoVolume = document.querySelector('.video__volume .video__timeline');
+const progressVolume = document.querySelector('.video__volume .video__fill');
+videoSlider.oninput = function(){
+  progressSlider.style.width = this.value + '%';
+};
+videoVolume.oninput = function(){
+  progressVolume.style.width = this.value + '%';
+};
 
 // const startTestButton = document.querySelector('.test-preview__start');
 // const testPreview = document.querySelector('.test-preview__content');
@@ -38,21 +48,6 @@ startTestButton.addEventListener('click', () => {
   testContainer.classList.remove('container_closed');
 })
 
-var $sliderVolume = $(".video__volume #slider");
-var $fillVolume = $(".video__volume .video__fill");
-var $sliderTimeline = $(".video__slider #slider");
-var $fillTimeline = $(".video__slider .video__fill");
-
-function setBarVolume() {
-	$fillVolume.css("width", $sliderVolume.val() + "%");
-};
-function setBarTimeline() {
-	$fillTimeline.css("width", $sliderTimeline.val() + "%");
-};
-$sliderTimeline.on("input", setBarTimeline);
-$sliderVolume.on("input", setBarVolume);
-setBarTimeline();
-setBarVolume();
 
 
 
