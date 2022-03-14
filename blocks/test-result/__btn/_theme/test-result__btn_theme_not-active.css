@@ -4,8 +4,3 @@
   color: #9397A3;
 }
 
-.test-result__btn_theme_not-active:hover {
-  background: #f3f3f3;
-  cursor: pointer;
-  transition: background .3s ease;
-}

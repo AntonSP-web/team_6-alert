@@ -74,34 +74,41 @@
 @import url(../blocks/kyrs-result/__title/kyrs-result_list__title.css);
 @import url(../blocks/kyrs-result/kyrs-result.css);
 @import url(../blocks/container/container.css);
-@import url(../blocks/container/_closed/container_closed.css);
+@import url(../blocks/test/test.css);
 @import url(../blocks/test/__header/test__header.css);
 @import url(../blocks/test/__title/test__title.css);
 @import url(../blocks/test/__question/test__question.css);
 @import url(../blocks/test/__answer/test__answer.css);
 @import url(../blocks/test/__link-conditions/test__link-conditions.css);
 @import url(../blocks/test/__checkbox/test__checkbox.css);
-@import url(../blocks/test/__checkbox/_visible/test__checkbox_visible.css);
 @import url(../blocks/test/__radio/test__radio.css);
-@import url(../blocks/test/__radio/_visible/test__radio_visible.css);
 @import url(../blocks/test/__questions-separator/test__questions-separator.css);
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_disabled/test__button_disabled.css);
 @import url(../blocks/test/__button-container/test__button-container.css);
 
 
+.pages__test-preview {
+  display: none;
+}
 
+.pages__test-go {
+  display: none;
+}
 
-@import url(../blocks/test/__paragraph/test__paragraph.css);
-@import url(../blocks/test/__requirements/test__requirements.css);
-@import url(../blocks/test/__requirements-container/test__requirements-container.css);
-@import url(../blocks/test/__score/test__score.css);
-@import url(../blocks/test/__attempts/test__attempts.css);
-@import url(../blocks/test/__time/test__time.css);
-@import url(../blocks/test/__info/test__info.css);
-@import url(../blocks/course-finished/__heading/course-finished__heading.css);
-@import url(../blocks/course-finished/__result/course-finished__result.css);
-@import url(../blocks/course-finished/__result-title/course-finished__result-title.css);
-@import url(../blocks/course-finished/__result-text/course-finished__result-text.css);
-@import url(../blocks/course-finished/__accent/course-finished__accent.css);
-@import url(../blocks/button/__link/_type/button__link_type_finish.css);
+.pages__test-about {
+  display: none;
+}
+
+.pages__test-ok {
+  display: none;
+}
+
+.pages__test-no {
+  display: none;
+}
+
+.block-open {
+  display: block;
+}
+
