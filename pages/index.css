@@ -92,6 +92,9 @@
 
 
 
+
+
+
 @import url(../blocks/test/__paragraph/test__paragraph.css);
 @import url(../blocks/test/__requirements/test__requirements.css);
 @import url(../blocks/test/__requirements-container/test__requirements-container.css);
@@ -117,3 +120,8 @@
 @import url(../blocks/test/__message/_type/test__message_type_positive.css);
 @import url(../blocks/button/__link/_type/button__link_type_restart.css);
 @import url(../blocks/button/__link/_type/button__link_type_restart-positive.css);
+@import url(../blocks/sidebar/__item-wrap/sidebar__item-wrap.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_lesson.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_checked.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_video-active.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_test.css);

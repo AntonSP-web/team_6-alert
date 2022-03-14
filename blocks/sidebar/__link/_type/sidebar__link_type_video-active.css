@@ -1,0 +1,4 @@
+.sidebar__link_type_video-active {
+  background: url(../../../../images/sidebar/video_active.svg) no-repeat;
+  color: #f06000;
+}
