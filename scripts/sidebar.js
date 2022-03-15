@@ -1,11 +1,11 @@
 const buttonArrow = document.querySelector('.sidebar__button');
 const sideBarList = document.querySelector('.sidebar__list');
 
+console.log(sideBarList);
 
 sideBarList.addEventListener('click', (evt) => {
-  const elem = evt.target.closest('.sidebar__item-wrap');
+  const elem = evt.target.closest('.sidebar__item');
   const listActivity = elem.querySelector('.sidebar__list-activity');
-
   if(evt.target.classList.contains('sidebar__button_type_arrow-down')) {
     listActivity.classList.remove('sidebar__list-activity_closed');
     evt.target.classList.remove('sidebar__button_type_arrow-down');
