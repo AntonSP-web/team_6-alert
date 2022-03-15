@@ -1,5 +1,6 @@
 .button__link_type_restart {
   color: #fff;
+  background: #ff6600;
 }
 
 .button__link_type_restart::before {

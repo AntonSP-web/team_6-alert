@@ -3,5 +3,17 @@
   display: flex;
   justify-content: center;
   padding: 12px 24px;
-  flex-grow: 1;
+  align-items: center;
+  min-width: 184px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  font-family: 'Golos',Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: opacity .3s ease-in;
+}
+
+.button__link:hover {
+  opacity: .8;
 }
