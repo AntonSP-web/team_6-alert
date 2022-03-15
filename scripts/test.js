@@ -10,12 +10,39 @@ testInputs.forEach(item => {
   function isChecked() {
     if(item.checked) {
       resultButton.classList.remove('test__button_disabled');
+      resultButton.removeAttribute('disabled');
       counter += 1;
     } else {
       counter -= 1;
-      if(counter < 1)  resultButton.classList.add('test__button_disabled');
+      if(counter < 1) {
+        resultButton.classList.add('test__button_disabled');
+        resultButton.setAttribute('disabled', 'true');
+      }
     }
   }
 })
+
+let correctAnswersCounter = 0;
+
+const testForm = document.querySelector('.test__form');
+const inputs = testForm.querySelectorAll('input');
+
+testForm.addEventListener('submit', () => {
+  inputs.forEach(item => {
+    if(item.checked && item.hasAttribute('data-answer')) {
+      correctAnswersCounter += 1;
+    }
+    if(item.checked && item.hasAttribute('data-answer') && item.type === 'radio') {
+      correctAnswersCounter += 2;
+    }
+    if(correctAnswersCounter > 3) {
+      testForm.action = './test-positive.html';
+    }
+  })
+})
+
+
+
+
 
 
