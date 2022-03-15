@@ -1,8 +1,6 @@
 const buttonArrow = document.querySelector('.sidebar__button');
 const sideBarList = document.querySelector('.sidebar__list');
 
-console.log(sideBarList);
-
 sideBarList.addEventListener('click', (evt) => {
   const elem = evt.target.closest('.sidebar__item');
   const listActivity = elem.querySelector('.sidebar__list-activity');

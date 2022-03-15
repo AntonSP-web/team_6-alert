@@ -1,13 +1,13 @@
-.button__link_disabled {
+.button-link_type_disabled {
   color: #9397a3;
   background-color: #e6e7eb;
   cursor: default;
 }
 
-.button__link_disabled::after {
+.button-link_type_disabled::after {
   content: url(../../../../images/buttons/arrow-right_disabled.svg);
 }
 
-.button__link_disabled:hover {
+.button-link_type_disabled:hover {
   opacity: 1;
 }

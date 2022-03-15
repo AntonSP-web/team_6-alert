@@ -61,10 +61,10 @@
 @import url(../blocks/button/__next/button__next.css);
 @import url(../blocks/button/__previous/button__previous.css);
 @import url(../blocks/button/_disabled/button_disabled.css);
-@import url(../blocks/button/__link/button__link.css);
-@import url(../blocks/button/__link/_type/button__link_type_next.css);
-@import url(../blocks/button/__link/_type/button__link_type_previous.css);
-@import url(../blocks/button/__link/_disabled/button__link_disabled.css);
+@import url(../blocks/button/__link/button-link.css);
+@import url(../blocks/button/__link/_type/button-link_type_next.css);
+@import url(../blocks/button/__link/_type/button-link_type_previous.css);
+@import url(../blocks/button/__link/_disabled/button-link_type_disabled.css);
 
 
 @import url(../blocks/test-preview/test-preview.css);
@@ -123,7 +123,7 @@
 @import url(../blocks/course-finished/__result-text/course-finished__result-text.css);
 @import url(../blocks/course-finished/__accent/course-finished__accent.css);
 
-@import url(../blocks/button/__link/_type/button__link_type_finish.css);
+@import url(../blocks/button/__link/_type/button-link_type_finish.css);
 
 @import url(../blocks/test/__answer-item/test__answer-item.css);
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_true.css);
@@ -136,8 +136,8 @@
 @import url(../blocks/test/__message-text/test__message-text.css);
 @import url(../blocks/test/__message/_type/test__message_type_positive.css);
 
-@import url(../blocks/button/__link/_type/button__link_type_restart.css);
-@import url(../blocks/button/__link/_type/button__link_type_restart-positive.css);
+@import url(../blocks/button/__link/_type/button-link_type_restart.css);
+@import url(../blocks/button/__link/_type/button-link_type_restart-positive.css);
 
 @import url(../blocks/sidebar/__item-wrap/sidebar__item-wrap.css);
 @import url(../blocks/sidebar/__link/_type/sidebar__link_type_lesson.css);

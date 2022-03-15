@@ -1,4 +1,4 @@
-.button__link {
+.button-link {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -14,6 +14,6 @@
   transition: opacity .3s ease-in;
 }
 
-.button__link:hover {
+.button-link:hover {
   opacity: .8;
 }

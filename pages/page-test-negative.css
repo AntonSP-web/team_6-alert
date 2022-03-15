@@ -32,7 +32,6 @@
 @import url(../blocks/sidebar/__list-activity/sidebar__list-activity.css);
 @import url(../blocks/sidebar/__list-activity/_closed/sidebar__list-activity_closed.css);
 @import url(../blocks/sidebar/__item-activity/sidebar__item-activity.css);
-@import url(../blocks/sidebar/__item-activity/_active/sidebar__item-activity_active.css);
 @import url(../blocks/sidebar/__icon/sidebar__icon.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_checked.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_video.css);
@@ -60,12 +59,10 @@
 @import url(../blocks/test/__message-text/test__message-text.css);
 
 @import url(../blocks/button-container/button-container.css);
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/__next/button__next.css);
-@import url(../blocks/button/__previous/button__previous.css);
-@import url(../blocks/button/_disabled/button_disabled.css);
-@import url(../blocks/button/__link/button__link.css);
-@import url(../blocks/button/__link/_type/button__link_type_restart.css);
-@import url(../blocks/button/__link/_type/button__link_type_next.css);
-@import url(../blocks/button/__link/_type/button__link_type_previous.css);
-@import url(../blocks/button/__link/_disabled/button__link_disabled.css);
+@import url(../blocks/button-link/button-link.css);
+@import url(../blocks/button-link/_type/button-link_type_next.css);
+@import url(../blocks/button-link/_type/button-link_type_previous.css);
+@import url(../blocks/button-link/_type/button-link_type_disabled.css);
+@import url(../blocks/button-link/_type/button-link_type_finish.css);
+@import url(../blocks/button-link/_type/button-link_type_restart-positive.css);
+@import url(../blocks/button-link/_type/button-link_type_restart.css);

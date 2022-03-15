@@ -1,9 +1,9 @@
-.button__link_type_restart {
+.button-link_type_restart {
   color: #fff;
   background: #ff6600;
 }
 
-.button__link_type_restart::before {
+.button-link_type_restart::before {
   content: url(../../../../images/buttons/restart-btn.svg);
   padding-right: 8px;
   width: 24px;
