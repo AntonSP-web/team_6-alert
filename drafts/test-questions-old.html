@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Страница урока / Тест превью</title>
+  <title>Страница урока / Тест</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./style.css">  <!-- delete later -->
+  <link rel="stylesheet" href="./pages/test-resalt.css">
 </head>
 <body class="page">
   <header class="header">
@@ -26,6 +26,7 @@
 			</ul>
 		</nav>
 	</header>
+
   <main class="main">
     <nav class="navigation">
       <ul class="navigation__list">
@@ -36,96 +37,77 @@
       </ul>
     </nav>
 
-    <section class="test">
-      <div class="container test__preview">
-        <div class="test__header">
-          <h2 class="test__title">Тест</h2>
+    <section class="wrapper">
+      <div class="test-result">
+        <div class="test-result__header">
+          <h2 class="test-result__title">Тест</h2>
+          <a class="test-result__link" href="#">Посмотреть условия</a>
         </div>
-        <p class="test__paragraph">Что мы узнали об особенностях привлечения следовых расчётов на ПСР и особенностях взаимодействия между участниками ППС</p>
-
-        <div class="test__requirements-container">
-          <div class="test__requirements">
-            <p class="test__score test__info">Проходной балл:</p>
-            <p class="test__info">80%</p>
-          </div>
-          <div class="test__requirements">
-            <p class="test__attempts test__info">Количество попыток:</p>
-            <p class="test__info">3</p>
-          </div>
-          <div class="test__requirements">
-            <p class="test__time test__info">Срок сдачи:</p>
-            <p class="test__info">22.02.2022 г. 16:20 (GMT+3)</p>
-          </div>
-        </div>
-
-        <div class="test__button-container">
-          <button class="test__button" type="button">Начать тест</button>
-        </div>
-      </div>
-
-      <div class="container container_closed test__container">
-        <div class="test__header">
-          <h2 class="test__title">Тест</h2>
-          <a href="./test-about.html" class="test__link-conditions">Посмотреть условия</a>
-        </div>
-
-        <form action="#" class="test__form" name="dogs">
-          <div class="test__questions-separator">
-            <h3 class="test__question">1. В каких случаях перспективно применение следовых кинологических расчётов?</h3>
-
-            <p class="test__answer">
-              <label for="help-citizen">
-                <input type="checkbox" class="test__checkbox" name="cases" id="help-citizen" value="help-citizen">
-                <span class="test__checkbox_visible">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="trace">
-                <input type="checkbox" class="test__checkbox" name="cases" id="trace" value="trace">
-                <span class="test__checkbox_visible">Обучение животного идти как по горячему, так и по остывшему следу</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="bodies">
-                <input type="checkbox" class="test__checkbox" name="cases" id="bodies" value="bodies">
-                <span class="test__checkbox_visible">Поиск тел и их остатков с применением специально обученных собак</span>
-              </label>
-            </p>
-          </div>
-
-          <div class="test__questions-separator">
-            <h3 class="test__question">2. С какого возраста следует начинать дрессировку по курсу ПСС?</h3>
-            <p class="test__answer">
-              <label for="six-month">
-                <input type="radio" class="test__radio" name="age" id="six-month" value="six-month">
-                <span class="test__radio_visible">6 месяцев</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="one-year"><input type="radio" class="test__radio" name="age" id="one-year" value="one-year">
-                <span class="test__radio_visible">1–1,5 года</span>
-              </label>
-            </p>
-            <p class="test__answer">
-              <label for="three-years">
-                <input type="radio" class="test__radio" name="age" id="three-years" value="three-years">
-                <span class="test__radio_visible">3 года</span>
-              </label>
-            </p>
-          </div>
-
-          <div class="test__button-container">
-            <button class="test__button test__button_disabled" type="submit" disabled>Показать результат</button>
-          </div>
+        <form class="form-test" name="form-questions">
+          <ol class="test-result__list">
+            <li class="test-result__list-title">В каких случаях перспективно применение следовых кинологических расчётов&quest;
+              <fieldset class="form-test__question">
+                <ul class="test-result__items">
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantOne" value="checkVariantOne">
+                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantTwoe" value="checkVariantTwoe">
+                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Обучение животного идти как по горячему, так и по остывшему следу </span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantThree" value="checkVariantThree">
+                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Поиск тел и их остатков с применением специально обученных собак</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+            <li class="test-result__list-title">С какого возраста следует начинать дрессировку по курсу ПСС&quest;
+              <ul class="test-result__items">
+                <fieldset class="form-test__question">
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantOne" value="radiokVariantOne">
+                      <span class="form-test__visible-check form-test__visible-check_type_radio">6 месяцев</span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantTwo" value="radiokVariantTwo">
+                      <span class="form-test__visible-check form-test__visible-check_type_radio">1–1,5 года</span>
+                    </label>
+                  </li>
+                  <li class="test-result__item test-result__item_type_form">
+                    <label>
+                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantThree" value="radiokVariantThree">
+                      <span class="form-test__visible-check form-test__visible-check_type_radio">3 годав</span>
+                    </label>
+                  </li>
+              </fieldset>
+              </ul>
+            </li>
+          </ol>
         </form>
+
+        <button class="test-result__btn test-result__btn_theme_not-active" type="submit" name="retake">
+          <span class="test-result__btn-text">Показать результат</span>
+        </button>
       </div>
+
 
       <div class="button-container">
         <button type="button" class="button button__previous">
-          <a href="./video.html" class="button__link button__link_type_previous">Назад</a>
+          <a href="#" class="button-link button-link_type_previous">Назад</a>
         </button>
-        <button type="button" class="button button__next button_disabled" disabled>
-          <a href="#" class="button__link button__link_type_next button__link_disabled">Далее</a>
+        <button type="button" class="button button__next">
+          <a href="#" class="button-link button-link_type_next">Далее</a>
         </button>
       </div>
     </section>
@@ -222,7 +204,7 @@
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_checked"></div>
-                <a href="./video.html" class="sidebar__link">Видео</a>
+                <a href="#" class="sidebar__link">Видео</a>
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_test_active"></div>

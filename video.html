@@ -5,8 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Страница урока / Видео</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./style.css">  <!-- delete later -->
+  <link rel="stylesheet" href="./pages/video.css">
 </head>
 <body class="page">
   <header class="header">
@@ -35,8 +34,8 @@
         <li class="navigation__item"><a href="#" class="navigation__link navigation__link_active">Видео</a></li>
       </ul>
     </nav>
-    <section class="wrapper">
-      <div class="video">
+    <section>
+      <div class="video container">
         <h2 class="video__title">Видео</h2>
         <div class="video__content">
           <div class="video__row">
@@ -57,12 +56,8 @@
         </div>
       </div>
       <div class="button-container">
-        <button type="button" class="button button__previous">
-          <a href="#" class="button__link button__link_type_previous">Назад</a>
-        </button>
-        <button type="button" class="button button__next">
-          <a href="./test-preview.html" class="button__link button__link_type_next">Далее</a>
-        </button>
+          <a href="#" class="button-link button-link_type_previous">Назад</a>
+          <a href="./test-preview.html" class="button-link button-link_type_next">Далее</a>
       </div>
     </section>
 
@@ -158,7 +153,7 @@
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_video_active"></div>
-                <a href="#" class="sidebar__link sidebar__link_active">Видео</a>
+                <a href="./video.html" class="sidebar__link sidebar__link_active">Видео</a>
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_test"></div>
@@ -196,6 +191,7 @@
       </nav>
     </section>
   </main>
-  <script src="./script.js"></script>
+  <script src="./scripts/video.js"></script>
+  <script src="./scripts/sidebar.js"></script>
 </body>
 </html>

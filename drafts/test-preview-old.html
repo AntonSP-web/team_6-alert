@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Страница урока / Тест</title>
+  <title>Страница урока / Тест превью</title>
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="./style.css">  <!-- delete later -->
 </head>
@@ -26,7 +26,6 @@
 			</ul>
 		</nav>
 	</header>
-
   <main class="main">
     <nav class="navigation">
       <ul class="navigation__list">
@@ -36,55 +35,93 @@
         <li class="navigation__item"><a href="#" class="navigation__link navigation__link_active">Тест</a></li>
       </ul>
     </nav>
+    <section class="test-preview">
+      <div class="test-preview__content">
+        <h2 class="test-preview__title">Тест</h2>
+        <p class="test-preview__text">Что мы узнали об особенностях привлечения следовых расчётов на ПСР
+          и особенностях взаимодействия между участниками ППС</p>
+        <div class="test-preview__points">
+          <p class="test-preview__text">Проходной балл:</p>
+          <p class="test-preview__info">80%</p>
+        </div>
+        <div class="test-preview__attempts">
+          <p class="test-preview__text">Количество попыток:</p>
+          <p class="test-preview__info">3</p>
+        </div>
+        <div class="test-preview__deadline">
+          <p class="test-preview__text">Срок сдачи:</p>
+          <p class="test-preview__info">22.02.2022 г. 16:20 (GMT+3)</p>
+        </div>
+        <button class="test-preview__start" type="button">Начать тест</button>
+      </div>
 
-    <section>
-      <div class="test container">
+      <div class="container container_closed">
         <div class="test__header">
           <h2 class="test__title">Тест</h2>
           <a href="./test-about.html" class="test__link-conditions">Посмотреть условия</a>
         </div>
-        <ol class="test__questions-list">
-          <li class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?
-            <ul class="test__answer">
-              <li class="test__answer-item test__answer-item_type_true">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</li>
-              <li class="test__answer-item test__answer-item_type_no-choice">Обучение животного идти как по горячему, так и по остывшему следу</label>
-              </li>
-              <li class="test__answer-item test__answer-item_type_true">Поиск тел и их остатков с применением специально обученных собак</label>
-              </li>
-            </ul>
-          </li>
 
-          <li class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?
-            <ul class="test__answer">
-              <li class="test__answer-item test__answer-item_type_false">6 месяцев</li>
-              <li class="test__answer-item test__answer-item_type_true">1–1,5 года</li>
-              <li class="test__answer-item test__answer-item_type_false">3 года</li>
-            </ul>
-          </li>
-        </ol>
+        <form action="#" class="test__form" name="dogs">
+          <div class="test__questions-separator">
+            <h3 class="test__question">1. В каких случаях перспективно применение следовых кинологических расчётов?</h3>
 
-        <div class="test__message test__message_type_positive">
-          <p class="test__rate">83%</p>
-          <p class="test__message-text">Отличный результат!</p>
-          <p class="test__message-text">Нажите «Далее» чтобы продолжить. Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет хуже, засчитается наивысший результат.</p>
-        </div>
+            <p class="test__answer">
+              <label for="help-citizen">
+                <input type="checkbox" class="test__checkbox" name="cases" id="help-citizen" value="help-citizen">
+                <span class="test__checkbox_visible">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+              </label>
+            </p>
+            <p class="test__answer">
+              <label for="trace">
+                <input type="checkbox" class="test__checkbox" name="cases" id="trace" value="trace">
+                <span class="test__checkbox_visible">Обучение животного идти как по горячему, так и по остывшему следу</span>
+              </label>
+            </p>
+            <p class="test__answer">
+              <label for="bodies">
+                <input type="checkbox" class="test__checkbox" name="cases" id="bodies" value="bodies">
+                <span class="test__checkbox_visible">Поиск тел и их остатков с применением специально обученных собак</span>
+              </label>
+            </p>
+          </div>
 
-        <div class="test__button-container">
-          <button type="button" class="button button__previous">
-            <a href="#" class="button__link button__link_type_restart-positive">Пересдать</a>
-          </button>
-        </div>
+          <div class="test__questions-separator">
+            <h3 class="test__question">2. С какого возраста следует начинать дрессировку по курсу ПСС?</h3>
+            <p class="test__answer">
+              <label for="six-month">
+                <input type="radio" class="test__radio" name="age" id="six-month" value="six-month">
+                <span class="test__radio_visible">6 месяцев</span>
+              </label>
+            </p>
+            <p class="test__answer">
+              <label for="one-year"><input type="radio" class="test__radio" name="age" id="one-year" value="one-year">
+                <span class="test__radio_visible">1–1,5 года</span>
+              </label>
+            </p>
+            <p class="test__answer">
+              <label for="three-years">
+                <input type="radio" class="test__radio" name="age" id="three-years" value="three-years">
+                <span class="test__radio_visible">3 года</span>
+              </label>
+            </p>
+          </div>
+
+          <div class="test__button-container">
+            <button class="test__button test__button_disabled" type="submit" disabled>Показать результат</button>
+          </div>
+        </form>
       </div>
 
       <div class="button-container">
         <button type="button" class="button button__previous">
-          <a href="#" class="button__link button__link_type_previous">Назад</a>
+          <a href="./video.html" class="button-link button-link_type_previous">Назад</a>
         </button>
         <button type="button" class="button button__next button_disabled" disabled>
-          <a href="#" class="button__link button__link_type_next button__link_disabled">Далее</a>
+          <a href="#" class="button-link button-link_type_next button-link_type_disabled">Далее</a>
         </button>
       </div>
     </section>
+
     <section class="sidebar">
       <h2 class="sidebar__heading">Содержание</h2>
       <nav>

@@ -1,8 +1,9 @@
-.button__link_type_restart-positive {
+.button-link_type_restart-positive {
   color: #ff6600;
+  border: 1.2px solid #E6E7EB;
 }
 
-.button__link_type_restart-positive::before {
+.button-link_type_restart-positive::before {
   content: url(../../../../images/buttons/restart-btn-orange.svg);
   padding-right: 8px;
   width: 24px;

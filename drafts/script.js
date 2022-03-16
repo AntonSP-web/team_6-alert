@@ -2,11 +2,11 @@
 const buttonArrow = document.querySelector('.sidebar__button');
 const sideBarList = document.querySelector('.sidebar__list');
 
-console.log(sideBarList);
 
 sideBarList.addEventListener('click', (evt) => {
-  const elem = evt.target.closest('.sidebar__item');
+  const elem = evt.target.closest('.sidebar__item-wrap');
   const listActivity = elem.querySelector('.sidebar__list-activity');
+
   if(evt.target.classList.contains('sidebar__button_type_arrow-down')) {
     listActivity.classList.remove('sidebar__list-activity_closed');
     evt.target.classList.remove('sidebar__button_type_arrow-down');
@@ -18,6 +18,19 @@ sideBarList.addEventListener('click', (evt) => {
     listActivity.classList.add('sidebar__list-activity_closed');
   }
 });
+
+// переход с начать тест на блок тест
+
+const test = document.querySelector('.test');
+const testPreview = test.querySelector('.test__preview');
+const startTestButton = test.querySelector('.test__button');
+const testContainer = test.querySelector('.test__container');
+
+startTestButton.addEventListener('click', () => {
+  testPreview.classList.add('container_closed');
+  testContainer.classList.remove('container_closed');
+})
+
 const videoSlider = document.querySelector('.video__slider .video__timeline');
 const progressSlider = document.querySelector('.video__slider .video__fill');
 const videoVolume = document.querySelector('.video__volume .video__timeline');
@@ -38,15 +51,15 @@ videoVolume.oninput = function(){
 //   testClosed.classList.remove('container_closed');
 // })
 
-const test = document.querySelector('.test');
-const testPreview = test.querySelector('.test__preview');
-const startTestButton = test.querySelector('.test__button');
-const testContainer = test.querySelector('.test__container');
+// const test = document.querySelector('.test');
+// const testPreview = test.querySelector('.test__preview');
+// const startTestButton = test.querySelector('.test__button');
+// const testContainer = test.querySelector('.test__container');
 
-startTestButton.addEventListener('click', () => {
-  testPreview.classList.add('container_closed');
-  testContainer.classList.remove('container_closed');
-})
+// startTestButton.addEventListener('click', () => {
+//   testPreview.classList.add('container_closed');
+//   testContainer.classList.remove('container_closed');
+// })
 
 
 

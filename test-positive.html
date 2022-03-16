@@ -5,8 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Страница урока / Тест</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./pages/test-resalt.css">
+  <link rel="stylesheet" href="./pages/page-test-positive.css">
 </head>
 <body class="page">
   <header class="header">
@@ -37,56 +36,46 @@
       </ul>
     </nav>
 
-    <section class="wrapper">
-
-
-
-
-
-      <div class="test-result">
-        <div class="test-result__header">
-          <h2 class="test-result__title">Тест</h2>
-          <a class="test-result__link" href="#">Посмотреть условия</a>
+    <section>
+      <div class="test container">
+        <div class="test__header">
+          <h2 class="test__title">Тест</h2>
+          <a href="./test-about.html" class="test__link-conditions">Посмотреть условия</a>
         </div>
-
-        <ol class="test-result__list">
-          <li class="test-result__list-title">В каких случаях перспективно применение следовых кинологических расчётов&quest;
-            <ul class="test-result__items">
-              <li class="test-result__item test-result__item_type_ok">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</li>
-              <li class="test-result__item test-result__item_type_true">Обучение животного идти как по горячему, так и по остывшему следу</li>
-              <li class="test-result__item test-result__item_type_ok">Поиск тел и их остатков с применением специально обученных собак</li>
+        <ol class="test__questions-list">
+          <li class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?
+            <ul class="test__answer">
+              <li class="test__answer-item test__answer-item_type_true">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</li>
+              <li class="test__answer-item test__answer-item_type_no-choice">Обучение животного идти как по горячему, так и по остывшему следу</li>
+              <li class="test__answer-item test__answer-item_type_true">Поиск тел и их остатков с применением специально обученных собак</li>
             </ul>
           </li>
-          <li class="test-result__list-title">С какого возраста следует начинать дрессировку по курсу ПСС&quest;
-            <ul class="test-result__items">
-              <li class="test-result__item test-result__item_type_false">6 месяцев</li>
-              <li class="test-result__item test-result__item_type_ok">1–1,5 года</li>
-              <li class="test-result__item test-result__item_type_false">3 года</li>
+
+          <li class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?
+            <ul class="test__answer">
+              <li class="test__answer-item test__answer-item_type_false">6 месяцев</li>
+              <li class="test__answer-item test__answer-item_type_true">1–1,5 года</li>
+              <li class="test__answer-item test__answer-item_type_false">3 года</li>
             </ul>
           </li>
         </ol>
 
-        <div class="test-result__total test-result__total_theme_pass">
-          <p class="test-result__rate">83&#37;</p>
-          <p class="test-result__total-title">Отличный результат!</p>
-          <p class="test-result__total-text">Нажите «Далее» чтобы продолжить</p>
-          <p class="test-result__total-text">Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет хуже, засчитается наивысший результат.</p>
+        <div class="test__message test__message_type_positive">
+          <p class="test__rate">83%</p>
+          <p class="test__message-text">Отличный результат!</p>
+          <p class="test__message-text">Нажите «Далее» чтобы продолжить. Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет хуже, засчитается наивысший результат.</p>
         </div>
 
+        <div class="test__button-container">
 
+            <a href="./test.html" class="button-link button-link_type_restart-positive">Пересдать</a>
 
-        <button class="test-result__btn test-result__btn_theme_pass" type="submit" name="retake">
-          <span class="test-result__btn-text test-result__btn-text_type_pass">Пересдать</span>
-        </button>
+        </div>
       </div>
 
       <div class="button-container">
-        <button type="button" class="button button__previous">
-          <a href="#" class="button__link button__link_type_previous">Назад</a>
-        </button>
-        <button type="button" class="button button__next">
-          <a href="#" class="button__link button__link_type_next">Далее</a>
-        </button>
+        <a href="./video.html" class="button-link button-link_type_previous">Назад</a>
+        <a href="./course-success.html" class="button-link button-link_type_next">Далее</a>
       </div>
     </section>
 
@@ -182,11 +171,11 @@
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_checked"></div>
-                <a href="#" class="sidebar__link">Видео</a>
+                <a href="./video.html" class="sidebar__link">Видео</a>
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_test_active"></div>
-                <a href="#" class="sidebar__link sidebar__link_active">Тест</a>
+                <a href="./test-preview.html" class="sidebar__link sidebar__link_active">Тест</a>
               </li>
             </ul>
           </li>
@@ -220,6 +209,6 @@
       </nav>
     </section>
   </main>
-  <script src="./script.js"></script>
+  <script src="./scripts/sidebar.js"></script>
 </body>
 </html>

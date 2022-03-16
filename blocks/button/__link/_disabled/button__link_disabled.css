@@ -1,7 +1,0 @@
-.button__link_disabled {
-  color: #9397a3;
-}
-
-.button__link_disabled::after {
-  content: url(../../../../images/buttons/arrow-right_disabled.svg);
-}

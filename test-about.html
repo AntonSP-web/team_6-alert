@@ -5,8 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Страница урока / O тесте</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./style.css">  <!-- delete later -->
+  <link rel="stylesheet" href="./pages/page-test-about.css">
 </head>
 <body class="page">
   <header class="header">
@@ -56,18 +55,11 @@
           <p class="test__time test__info">Срок сдачи:</p>
           <p class="test__info">22.02.2022 г. 16:20 (GMT+3)</p>
         </div>
-
       </div>
 
-
-
       <div class="button-container">
-        <button type="button" class="button button__previous">
-          <a href="./video.html" class="button__link button__link_type_previous">Назад</a>
-        </button>
-        <button type="button" class="button button__next button_disabled" disabled>
-          <a href="#" class="button__link button__link_type_next button__link_disabled">Далее</a>
-        </button>
+        <a href="./test-preview.html" class="button-link button-link_type_previous">Назад</a>
+        <a href="#" class="button-link button-link_type_next button-link_type_disabled">Далее</a>
       </div>
     </section>
 
@@ -167,7 +159,7 @@
               </li>
               <li class="sidebar__item-activity">
                 <div class="sidebar__icon sidebar__icon_type_test_active"></div>
-                <a href="#" class="sidebar__link sidebar__link_active">Тест</a>
+                <a href="./test-preview.html" class="sidebar__link sidebar__link_active">Тест</a>
               </li>
             </ul>
           </li>
@@ -201,6 +193,6 @@
       </nav>
     </section>
   </main>
-  <script src="./script.js"></script>
+  <script src="./scripts/sidebar.js"></script>
 </body>
 </html>

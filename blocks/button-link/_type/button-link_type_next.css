@@ -1,8 +1,9 @@
-.button__link_type_next {
+.button-link_type_next {
+  background: #ff6600;
   color: #fff;
 }
 
-.button__link_type_next::after {
+.button-link_type_next::after {
   content: url(../../../../images/buttons/arrow-right.svg);
   padding-left: 8px;
   width: 24px;

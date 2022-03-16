@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Страница урока / Тест</title>
+  <title>Страница урока / O тесте</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./pages/test-resalt.css">
 </head>
 <body class="page">
   <header class="header">
@@ -26,7 +25,6 @@
 			</ul>
 		</nav>
 	</header>
-
   <main class="main">
     <nav class="navigation">
       <ul class="navigation__list">
@@ -36,82 +34,33 @@
         <li class="navigation__item"><a href="#" class="navigation__link navigation__link_active">Тест</a></li>
       </ul>
     </nav>
-
-    <section class="wrapper">
-      <div class="test-result">
-        <div class="test-result__header">
-          <h2 class="test-result__title">Тест</h2>
-          <a class="test-result__link" href="#">Посмотреть условия</a>
+    <section class="test-preview">
+      <div class="test-preview__content">
+        <h2 class="test-preview__title">Тест</h2>
+        <p class="test-preview__text">Что мы узнали об особенностях привлечения следовых расчётов на ПСР
+          и особенностях взаимодействия между участниками ППС</p>
+        <div class="test-preview__points">
+          <p class="test-preview__text">Проходной балл:</p>
+          <p class="test-preview__info">80%</p>
         </div>
-        <form class="form-test" name="form-questions">
-          <ol class="test-result__list">
-            <li class="test-result__list-title">В каких случаях перспективно применение следовых кинологических расчётов&quest;
-              <fieldset class="form-test__question">
-                <ul class="test-result__items">
-                  <li class="test-result__item test-result__item_type_form">
-                    <label>
-                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantOne" value="checkVariantOne">
-                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
-                    </label>
-                  </li>
-                  <li class="test-result__item test-result__item_type_form">
-                    <label>
-                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantTwoe" value="checkVariantTwoe">
-                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Обучение животного идти как по горячему, так и по остывшему следу </span>
-                    </label>
-                  </li>
-                  <li class="test-result__item test-result__item_type_form">
-                    <label>
-                      <input type="checkbox" class="form-test__check" name="firstQuestion" id="checkVariantThree" value="checkVariantThree">
-                      <span class="form-test__visible-check form-test__visible-check_type_checkbox">Поиск тел и их остатков с применением специально обученных собак</span>
-                    </label>
-                  </li>
-                </ul>
-              </fieldset>
-            </li>
-            <li class="test-result__list-title">С какого возраста следует начинать дрессировку по курсу ПСС&quest;
-              <ul class="test-result__items">
-                <fieldset class="form-test__question">
-                  <li class="test-result__item test-result__item_type_form">
-                    <label>
-                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantOne" value="radiokVariantOne">
-                      <span class="form-test__visible-check form-test__visible-check_type_radio">6 месяцев</span>
-                    </label>
-                  </li>
-                  <li class="test-result__item test-result__item_type_form">
-                    <label>
-                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantTwo" value="radiokVariantTwo">
-                      <span class="form-test__visible-check form-test__visible-check_type_radio">1–1,5 года</span>
-                    </label>
-                  </li>
-                  <li class="test-result__item test-result__item_type_form">
-                    <label>
-                      <input type="radio" class="form-test__check" name="secondQuestion" id="radiokVariantThree" value="radiokVariantThree">
-                      <span class="form-test__visible-check form-test__visible-check_type_radio">3 годав</span>
-                    </label>
-                  </li>
-              </fieldset>
-              </ul>
-            </li>
-          </ol>
-        </form>
-
-        <button class="test-result__btn test-result__btn_theme_not-active" type="submit" name="retake">
-          <span class="test-result__btn-text">Показать результат</span>
-        </button>
+        <div class="test-preview__attempts">
+          <p class="test-preview__text">Количество попыток:</p>
+          <p class="test-preview__info">3</p>
+        </div>
+        <div class="test-preview__deadline">
+          <p class="test-preview__text">Срок сдачи:</p>
+          <p class="test-preview__info">22.02.2022 г. 16:20 (GMT+3)</p>
+        </div>
       </div>
-
-
       <div class="button-container">
         <button type="button" class="button button__previous">
-          <a href="#" class="button__link button__link_type_previous">Назад</a>
+          <a href="./video.html" class="button-link button-link_type_previous">Назад</a>
         </button>
-        <button type="button" class="button button__next">
-          <a href="#" class="button__link button__link_type_next">Далее</a>
+        <button type="button" class="button button__next button_disabled" disabled>
+          <a href="#" class="button-link button-link_type_next button-link_type_disabled">Далее</a>
         </button>
       </div>
     </section>
-
     <section class="sidebar">
       <h2 class="sidebar__heading">Содержание</h2>
       <nav>
@@ -203,12 +152,12 @@
                 <a href="#" class="sidebar__link">Урок</a>
               </li>
               <li class="sidebar__item-activity">
-                <div class="sidebar__icon sidebar__icon_type_checked"></div>
-                <a href="#" class="sidebar__link">Видео</a>
+                <div class="sidebar__icon sidebar__icon_type_video_active"></div>
+                <a href="#" class="sidebar__link sidebar__link_active">Видео</a>
               </li>
               <li class="sidebar__item-activity">
-                <div class="sidebar__icon sidebar__icon_type_test_active"></div>
-                <a href="#" class="sidebar__link sidebar__link_active">Тест</a>
+                <div class="sidebar__icon sidebar__icon_type_test"></div>
+                <a href="#" class="sidebar__link">Тест</a>
               </li>
             </ul>
           </li>
@@ -242,6 +191,5 @@
       </nav>
     </section>
   </main>
-  <script src="./script.js"></script>
 </body>
 </html>
