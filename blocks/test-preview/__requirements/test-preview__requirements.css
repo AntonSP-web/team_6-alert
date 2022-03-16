@@ -1,0 +1,9 @@
+.test-preview__requirements {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.test-preview__requirements:last-child {
+  margin-bottom: 0px;
+}

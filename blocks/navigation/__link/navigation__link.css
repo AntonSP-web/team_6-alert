@@ -2,13 +2,9 @@
   text-decoration: none;
   color: #212329;
   display: flex;
+  font-weight: 500;
 }
 
-.navigation__link {
-  text-decoration: none;
-  color: #212329;
-  display: flex;
-}
 
 .navigation__link:hover {
   opacity: .8;

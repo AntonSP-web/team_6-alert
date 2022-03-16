@@ -1,0 +1,16 @@
+.button_type_disabled {
+  color: #9397a3;
+  background-color: #e6e7eb;
+  cursor: default;
+}
+
+.button_type_disabled::after {
+  content: url(../../../images/buttons/arrow-right_disabled.svg);
+  padding-left: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.button_type_disabled:hover {
+  opacity: 1;
+}

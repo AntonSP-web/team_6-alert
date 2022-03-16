@@ -1,0 +1,8 @@
+.test__text-result {
+  margin-top: 62px;
+  margin-bottom: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

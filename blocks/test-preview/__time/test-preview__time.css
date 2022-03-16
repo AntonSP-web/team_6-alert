@@ -1,0 +1,5 @@
+.test-preview__time {
+  background: url(../../../images/test/time.svg) no-repeat;
+  background-size: 24px;
+  padding-left: 32px;
+}

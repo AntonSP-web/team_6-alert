@@ -1,0 +1,5 @@
+.button_view_not-active {
+  background: #E6E7EB;
+  color: #9397A3;
+  pointer-events: none;
+}

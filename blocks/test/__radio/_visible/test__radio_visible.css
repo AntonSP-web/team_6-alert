@@ -1,12 +1,13 @@
 .test__radio_visible {
   display: inline-block;
   background: #fff url(../../../../images/test/radio_off.svg) no-repeat;
-  background-size: 20px;
-  padding-left: 28px;
+  background-size: 24px;
+  padding-left: 32px;
+
 }
 
 .test__radio:checked + .test__radio_visible {
   background: #fff url(../../../../images/test/radio_on.svg) no-repeat;
-  background-size: 20px;
+  background-size: 24px;
   color: #f06000;
 }

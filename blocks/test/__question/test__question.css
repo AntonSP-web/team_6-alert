@@ -10,3 +10,7 @@
 .test__question:first-child {
   border-top: none;
 }
+
+.test__question:last-child {
+  padding-bottom: 0;
+}

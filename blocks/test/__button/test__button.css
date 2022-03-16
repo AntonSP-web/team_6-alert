@@ -1,22 +1,18 @@
 .test__button {
-  cursor: pointer;
-  border: none;
-  outline: none;
+  margin: 32px auto 0px;
+  /* padding: 11px 22px; */
   border-radius: 16px;
-  min-width: 184px;
-  height: 48px;
-  padding: 12px 24px;
-  text-align: center;
-  font-family: 'Golos', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  color: #fff;
-  background-color: #ff6600;
-  margin: 0 auto;
-  transition: opacity .3s ease-in;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.test__button:hover {
-  opacity: .8;
-}
+
+

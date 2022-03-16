@@ -2,6 +2,8 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
-  margin: 0;
-  padding-top: 24px;
+  margin: 0 auto 18px;
+  max-width: 680px;
 }
+
+

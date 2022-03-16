@@ -1,0 +1,8 @@
+.button_type_restart::before {
+  content: url(../../../images/buttons/restart-btn.svg);
+  padding-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+
