@@ -109,18 +109,18 @@
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_false-choice.css);
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_false.css);
 @import url(../blocks/test/__questions-list/test__questions-list.css);
-@import url(../blocks/test/__text-result/test__text-result.css);
 
 @import url(../blocks/test/__message/test__message.css);
 @import url(../blocks/test/__message/_type/test__message_type_positive.css);
-@import url(../blocks/test/__rate/test__rate.css);
-@import url(../blocks/test/__message-text/test__message-text.css);
-@import url(../blocks/test/__message/_accent/test__message_accent.css);
-@import url(../blocks/test/__text/test__text.css);
 
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/info/__text/info__text.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/_accent/info_accent.css);
 
-
-
+@import url(../blocks/block-soccess/__position/block-soccess__position.css);
+@import url(../blocks/block-fail/__position/block-fail__position.css);
 
 
 

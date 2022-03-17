@@ -1,4 +1,4 @@
-.test__message-text {
+.info__subtitle {
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
@@ -6,4 +6,6 @@
   max-width: 680px;
 }
 
-
+.info__subtitle:last-child {
+  margin: 0 auto;
+}
