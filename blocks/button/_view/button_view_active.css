@@ -2,3 +2,8 @@
   background: #FF6600;
   color: #FFFFFF;
 }
+
+.button_view_active:hover {
+  background: #b3591e;
+  color: #FFFFFF;
+}

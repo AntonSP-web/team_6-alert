@@ -1,9 +1,12 @@
 .sidebar__link {
   text-decoration: none;
+  /* display: inline-block; */
   color: #212329;
 }
 
-
+.sidebar__link:active {
+  color: #FF6600;
+}
 
 .sidebar__link:hover {
   opacity: 0.8;

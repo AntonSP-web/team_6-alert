@@ -37,13 +37,10 @@
 @import url(../blocks/sidebar/__list-activity/sidebar__list-activity.css);
 @import url(../blocks/sidebar/__list-activity/_closed/sidebar__list-activity_closed.css);
 @import url(../blocks/sidebar/__item-activity/sidebar__item-activity.css);
-@import url(../blocks/sidebar/__icon/sidebar__icon.css);
-@import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_checked.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_video.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_video_active.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_test.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_test_active.css);
-@import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_lesson.css);
 
 
 /* кнопки под блокам теста */
@@ -89,9 +86,6 @@
 @import url(../blocks/test-preview/__paragraph/test-preview__paragraph.css);
 @import url(../blocks/test-preview/__requirements/test-preview__requirements.css);
 @import url(../blocks/test-preview/__requirements-container/test-preview__requirements-container.css);
-@import url(../blocks/test-preview/__score/test-preview__score.css);
-@import url(../blocks/test-preview/__attempts/test-preview__attempts.css);
-@import url(../blocks/test-preview/__time/test-preview__time.css);
 @import url(../blocks/test-preview/__info/test-preview__info.css);
 
 
@@ -109,6 +103,7 @@
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_false-choice.css);
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_false.css);
 @import url(../blocks/test/__questions-list/test__questions-list.css);
+@import url(../blocks/test/__subparagraph/test__subparagraph.css);
 
 @import url(../blocks/test/__message/test__message.css);
 @import url(../blocks/test/__message/_type/test__message_type_positive.css);
@@ -122,13 +117,27 @@
 @import url(../blocks/block-soccess/__position/block-soccess__position.css);
 @import url(../blocks/block-fail/__position/block-fail__position.css);
 
+@import url(../blocks/subparagraph/_type/subparagraph_type_false-choice.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_false.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_not-chosen.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_true.css);
+@import url(../blocks/subparagraph/_true/subparagraph_true.css);
+@import url(../blocks/subparagraph/_false/subparagraph_false.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_paper-check.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_paper.css);
 
 
 
+.subparagraph_type_reset {
+  background: url(../images/test-preview/reset.svg) no-repeat;
+  padding-left: 32px;
+}
 
 
-
-
+.subparagraph_type_time {
+  background: url(../images/test-preview/time.svg) no-repeat;
+  padding-left: 32px;
+}
 
 
 
