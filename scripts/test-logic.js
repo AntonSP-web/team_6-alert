@@ -27,7 +27,7 @@ const btnNextPage = document.querySelector('.button__next') // кнопка "Д�
 
 let linkToBlock = '';
 let counter = 3;
-
+let maxPercent = 0;
 
 // ================ описание функций ======================================
 function closedBlock (block) {
@@ -126,6 +126,11 @@ btnBlockPreview.addEventListener('click', function() {
 btnShowResult.addEventListener('click', function() {
   closeAndOpenBlock(testBlock, testResult);
   const  result = verifyCheck();
+
+  if (result > maxPercent) {
+    maxPercent = result;
+  }
+
   counterPreview.textContent = counter;
   counterAbout.textContent = counter;
 
@@ -135,7 +140,7 @@ btnShowResult.addEventListener('click', function() {
   }
 
   percent.textContent = result+"%";
-  if (result >= 83) {
+  if (result >= 83 || maxPercent >= 83) {
     // показать положительный результат
     cardResult.classList.add('test__message_type_positive');
     title.textContent = 'Отличный результат!';
