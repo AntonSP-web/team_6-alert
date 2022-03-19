@@ -40,14 +40,64 @@
       </ul>
     </nav>
 
-    <section class="block-test">
-      <div class="test container">
+    <section>
 
+      <section class="test-preview container ">
+        <div class="test-header">
+          <h1 class="test-header__title">Тест</h1>
+        </div>
+        <p class="test-preview__paragraph">Что мы узнали об особенностях привлечения следовых расчётов
+          на ПСР и особенностях взаимодействия между участниками ППС</p>
+
+        <div class="test-preview__requirements-container">
+          <div class="test-preview__requirements">
+            <p class="subparagraph_type_not-chosen test-preview__info">Проходной балл:</p>
+            <p class="test-preview__info">80%</p>
+          </div>
+          <div class="test-preview__requirements ">
+            <p class="subparagraph_type_reset test-preview__info">Количество попыток:</p>
+            <p class="test-preview__info test-counter">3</p>
+          </div>
+          <div class="test-preview__requirements ">
+            <p class="subparagraph_type_time test-preview__info">Срок сдачи:</p>
+            <p class="test-preview__info">22.02.2022 г. 16:20 (GMT+3)</p>
+          </div>
+        </div>
+
+        <div class="test__button container_closed">
+          <button class="button button_view_active batton_one " type="submit" name="retake">Начать тест</button>
+        </div>
+      </section>
+
+      <section class="test-about container container_closed">
+        <div class="test-header">
+          <h1 class="test-header__title">Тест</h1>
+          <button class="test-header__link">Вернуться к тесту</button>
+        </div>
+        <p class="test-preview__paragraph">Что мы узнали об особенностях привлечения следовых расчётов
+          на ПСР и особенностях взаимодействия между участниками ППС</p>
+
+        <div class="test-preview__requirements-container">
+          <div class="test-preview__requirements">
+            <p class="subparagraph_type_not-chosen test-preview__info">Проходной балл:</p>
+            <p class="test-preview__info">80%</p>
+          </div>
+          <div class="test-preview__requirements ">
+            <p class="subparagraph_type_reset test-preview__info">Количество попыток:</p>
+            <p class="test-preview__info test-counter">3</p>
+          </div>
+          <div class="test-preview__requirements ">
+            <p class="subparagraph_type_time test-preview__info">Срок сдачи:</p>
+            <p class="test-preview__info">22.02.2022 г. 16:20 (GMT+3)</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="test-pass container container_closed">
         <div class="test-header">
           <h1 class="test-header__title">Тест</h1>
           <button class="test-header__link">Посмотреть условия</button>
         </div>
-
         <form action="#" class="test__form" name="dogs">
           <ol class="test__questions-list">
             <li class="test__question ">В каких случаях перспективно применение следовых кинологических расчётов?
@@ -87,8 +137,9 @@
                   </label>
                 </li>
                 <li class="test__answer-item">
-                  <label for="one-year"><input type="radio" class="test__radio" name="age" id="one-year"
-                      value="one-year" data-answer="correct">
+                  <label for="one-year">
+                    <input type="radio" class="test__radio" name="age" id="one-year" value="one-year"
+                      data-answer="correct">
                     <span class="test__radio_visible">1–1,5 года</span>
                   </label>
                 </li>
@@ -101,19 +152,71 @@
               </ul>
             </li>
           </ol>
-
-
-          <div class="test__button">
-            <button class="button button_view_not-active batton_one " disabled="disabled" type="submit" name="retake">Показать результат</button>
-          </div>
         </form>
-      </div>
+
+        <div class="test__button">
+          <button class="button button_view_not-active batton_one " disabled="disabled" type="submit"
+            name="retake">Показать результат</button>
+        </div>
 
 
-      <div class="button-container">
+      </section>
+
+      <section class="test-result container container_closed">
+        <div class="test-header">
+          <h1 class="test-header__title">Тест</h1>
+          <button class="test-header__link">Посмотреть условия</button>
+        </div>
+        <ol class="test__questions-list">
+          <li class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?
+            <ul class="test__answer">
+              <li class="test__subparagraph ">Оказание помощи гражданам, оказавшимся в зонах
+                бедствия или пропавшим в безлюдной местности</li>
+              <li class="test__subparagraph ">Обучение животного идти как по горячему,
+                так и по остывшему следу</li>
+              <li class="test__subparagraph ">Поиск тел и их остатков с применением специально
+                обученных собак</li>
+            </ul>
+          </li>
+
+          <li class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?
+            <ul class="test__answer">
+              <li class="test__subparagraph ">6 месяцев</li>
+              <li class="test__subparagraph ">1–1,5 года</li>
+              <li class="test__subparagraph ">3 года</li>
+            </ul>
+          </li>
+        </ol>
+
+        <div class="test__message ">
+          <div class="info">
+            <p class="info__title">83%</p>
+            <p class="info__subtitle">Отличный результат!</p>
+            <div class="info__subtitle info__subtitle_positive">
+              <p class="info__text">Нажите «Далее» чтобы продолжить.</p>
+              <p class="info__text">Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет
+                хуже, засчитается наивысший результат.</p>
+            </div>
+            <div class="info__subtitle info__subtitle_negative container_closed">
+              <p class="info__text">Нажмите «Пересдать», чтобы попробовать снова.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="test__button">
+          <button class="button button_view_back button_type_restart-positive batton_one" type="submit"
+            name="retake">Пересдать</button>
+        </div>
+
+
+
+      </section>
+
+      <div class="button-container ">
         <a href="./video.html" class="button button_view_back button_type_previous">Назад</a>
-        <a href="./course-success.html" class=" button button_view_not-active button_type_disabled">Далее</a>
+        <a href="#" class=" button button_view_not-active button_type_disabled button__next">Далее</a>
       </div>
+
     </section>
 
     <section class="sidebar">
@@ -192,7 +295,8 @@
             </div>
             <ul class="sidebar__list-activity">
               <li class="sidebar__item-activity">
-                <a href="#" class="sidebar__link test__subparagraph subparagraph_type_true">рессировка поисково-спасательных собак</a>
+                <a href="#" class="sidebar__link test__subparagraph subparagraph_type_true">Дрессировка
+                  поисково-спасательных собак</a>
               </li>
               <li class="sidebar__item-activity">
                 <a href="#" class="sidebar__link test__subparagraph subparagraph_type_true">Вебинар</a>
@@ -237,9 +341,10 @@
         </ul>
       </nav>
     </section>
+
   </main>
   <script src="./scripts/sidebar.js"></script>
-  <script src="./scripts/test.js"></script>
+  <script src="./scripts/test-logic.js"></script>
 </body>
 
 </html>

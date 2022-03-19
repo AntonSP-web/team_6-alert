@@ -1,6 +1,5 @@
 .test__button {
   margin: 32px auto 0px;
-  /* padding: 11px 22px; */
   border-radius: 16px;
   font-weight: 500;
   font-size: 18px;
@@ -9,8 +8,6 @@
   align-items: center;
   text-align: center;
   border: none;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 

@@ -98,10 +98,6 @@
 @import url(../blocks/test/__radio/test__radio.css);
 @import url(../blocks/test/__radio/_visible/test__radio_visible.css);
 @import url(../blocks/test/__answer-item/test__answer-item.css);
-@import url(../blocks/test/__answer-item/_type/test__answer-item_type_true.css);
-@import url(../blocks/test/__answer-item/_type/test__answer-item_type_no-choice.css);
-@import url(../blocks/test/__answer-item/_type/test__answer-item_type_false-choice.css);
-@import url(../blocks/test/__answer-item/_type/test__answer-item_type_false.css);
 @import url(../blocks/test/__questions-list/test__questions-list.css);
 @import url(../blocks/test/__subparagraph/test__subparagraph.css);
 
@@ -125,19 +121,13 @@
 @import url(../blocks/subparagraph/_false/subparagraph_false.css);
 @import url(../blocks/subparagraph/_type/subparagraph_type_paper-check.css);
 @import url(../blocks/subparagraph/_type/subparagraph_type_paper.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_reset.css);
+@import url(../blocks/subparagraph/_type/subparagraph_type_time.css);
 
 
 
-.subparagraph_type_reset {
-  background: url(../images/test-preview/reset.svg) no-repeat;
-  padding-left: 32px;
-}
 
 
-.subparagraph_type_time {
-  background: url(../images/test-preview/time.svg) no-repeat;
-  padding-left: 32px;
-}
 
 
 
