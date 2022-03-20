@@ -4,7 +4,7 @@
 }
 
 .button-link_type_restart-positive::before {
-  content: url(../../../../images/buttons/restart-btn-orange.svg);
+  content: url(../../../images/buttons/restart-btn-orange.svg);
   padding-right: 8px;
   width: 24px;
   height: 24px;
