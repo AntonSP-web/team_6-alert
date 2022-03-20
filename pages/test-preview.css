@@ -50,13 +50,16 @@
 @import url(../blocks/button-link/_type/button-link_type_restart-positive.css);
 @import url(../blocks/button-link/_type/button-link_type_restart.css);
 
+@import url(../blocks/test/__header/test__header.css);
+@import url(../blocks/test/__title/test__title.css);
 @import url(../blocks/test/__paragraph/test__paragraph.css);
 @import url(../blocks/test/__requirements/test__requirements.css);
 @import url(../blocks/test/__requirements-container/test__requirements-container.css);
-@import url(../blocks/test/__score/test__score.css);
-@import url(../blocks/test/__attempts/test__attempts.css);
-@import url(../blocks/test/__time/test__time.css);
+
 @import url(../blocks/test/__info/test__info.css);
+@import url(../blocks/test/__info/_type/test__info_type_score.css);
+@import url(../blocks/test/__info/_type/test__info_type_attempts.css);
+@import url(../blocks/test/__info/_type/test__info_type_time.css);
 
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_disabled/test__button_disabled.css);
