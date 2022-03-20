@@ -5,7 +5,7 @@
 }
 
 .button-link_type_disabled::after {
-  content: url(../../../../images/buttons/arrow-right_disabled.svg);
+  content: url(../../../images/buttons/arrow-right_disabled.svg);
 }
 
 .button-link_type_disabled:hover {
