@@ -1,0 +1,13 @@
+.video__sound {
+  background-image: url(../../../images/video/sound.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px 16px;
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 16px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 10px 0 0;
+}

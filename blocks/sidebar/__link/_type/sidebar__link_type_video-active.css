@@ -1,0 +1,5 @@
+.sidebar__link_type_video-active::before {
+  content: url(../../../../images/sidebar/video_active.svg);
+  margin-right: 10px;
+  height: 24px;
+}

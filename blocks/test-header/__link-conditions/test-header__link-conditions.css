@@ -1,0 +1,13 @@
+.test-header__link-conditions {
+  text-decoration: none;
+  color: #212329;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all .3s ease-in;
+}
+
+.test-header__link-conditions:hover {
+  opacity: .8;
+  border-bottom: 1px solid #212329;
+}

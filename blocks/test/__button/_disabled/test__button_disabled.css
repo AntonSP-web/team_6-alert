@@ -1,0 +1,10 @@
+.test__button_disabled {
+  background-color: #e6e7eb;
+  color: #9397a3;
+  /* padding: 12px 24px; */
+  cursor: default;
+}
+
+.test__button_disabled:hover {
+  opacity: 1;
+}

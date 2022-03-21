@@ -1,0 +1,11 @@
+.test-preview__deadline{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-image: url(../../../images/test-preview/time.svg);
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: center;
+  background-size: 16px 22px;
+  padding: 0 0 0 35px;
+}

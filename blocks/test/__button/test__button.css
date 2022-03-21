@@ -1,0 +1,23 @@
+.test__button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  min-width: 184px;
+  height: 48px;
+  padding: 12px 24px;
+  text-align: center;
+  font-family: 'Golos', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #ff6600;
+  display: flex;
+  margin: 0 auto;
+  transition: opacity .3s ease-in;
+}
+
+.test__button:hover {
+  opacity: .8;
+}

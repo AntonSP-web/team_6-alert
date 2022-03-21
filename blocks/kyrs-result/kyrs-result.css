@@ -1,0 +1,9 @@
+.kyrs-result {
+  font-family: 'Golos', Arial, sans-serif;
+  max-width: 872px;
+  padding: 32px;
+  box-sizing: border-box;
+  color: #212329;
+  box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6), 0px 4px 16px rgba(231, 232, 235, 0.6);
+  border-radius: 16px;
+}

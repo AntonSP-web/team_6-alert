@@ -1,0 +1,5 @@
+.sidebar__link_type_lesson::before {
+  content: url(../../../../images/sidebar/lesson.svg);
+  margin-right: 10px;
+  height: 24px;
+}

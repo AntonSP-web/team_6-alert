@@ -1,0 +1,21 @@
+.navigation__link {
+  text-decoration: none;
+  color: #212329;
+  display: flex;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #212329;
+  display: flex;
+}
+
+.navigation__link:hover {
+  opacity: .8;
+}
+
+.navigation__link::after {
+  content: url(../../../images/navigation/navigation-arrow.svg);
+  height: 24px;
+  width: 24px;
+}

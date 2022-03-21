@@ -1,0 +1,9 @@
+.sidebar__item-activity {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar__item-activity:last-child {
+  margin-bottom: 0;
+}

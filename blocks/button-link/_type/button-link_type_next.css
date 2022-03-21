@@ -1,0 +1,11 @@
+.button-link_type_next {
+  background: #ff6600;
+  color: #fff;
+}
+
+.button-link_type_next::after {
+  content: url(../../../images/buttons/arrow-right.svg);
+  padding-left: 8px;
+  width: 24px;
+  height: 24px;
+}

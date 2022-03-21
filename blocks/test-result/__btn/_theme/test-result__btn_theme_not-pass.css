@@ -1,0 +1,10 @@
+.test-result__btn_theme_not-pass {
+  background: #FF6600;
+  color: #FFFFFF;
+}
+
+.test-result__btn_theme_not-pass:hover {
+  background: #c75102;
+  cursor: pointer;
+  transition: background .3s ease;
+}

@@ -1,0 +1,12 @@
+.button-link_type_restart {
+  color: #fff;
+  background: #ff6600;
+  margin: 0 auto;
+}
+
+.button-link_type_restart::before {
+  content: url(../../../images/buttons/restart-btn.svg);
+  padding-right: 8px;
+  width: 24px;
+  height: 24px;
+}
