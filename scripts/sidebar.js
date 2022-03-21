@@ -16,14 +16,17 @@
 //   }
 // });
 
-const sidebarItems = document.querySelectorAll('.sidebar__item');
+const wrappers = document.querySelectorAll('.sidebar__wrapper');
 
-sidebarItems.forEach(item => {
-  item.addEventListener('click', () => {
-    const listActivity = item.querySelector('.sidebar__list-activity');
-    const buttonArrow = item.querySelector('.sidebar__button');
+wrappers.forEach(wrapper => {
+  wrapper.addEventListener('click', (evt) => {
+    const elem = evt.target.closest('.sidebar__item');
+    const listActivity = elem.querySelector('.sidebar__list-activity');
+    const buttonArrow = wrapper.querySelector('.sidebar__button');
     buttonArrow.classList.toggle('sidebar__button_type_arrow-up');
     buttonArrow.classList.toggle('sidebar__button_type_arrow-down');
     listActivity.classList.toggle('sidebar__list-activity_closed');
   })
 })
+
+export default wrappers;

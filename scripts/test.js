@@ -42,7 +42,7 @@ testForm.addEventListener('submit', () => {
 })
 
 
-
+export default testInputs;
 
 
 

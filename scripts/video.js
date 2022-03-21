@@ -10,3 +10,5 @@ videoSlider.oninput = function() {
 videoVolume.oninput = function() {
   progressVolume.style.width = this.value + '%';
 };
+
+export default videoSlider;
