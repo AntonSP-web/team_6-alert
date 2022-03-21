@@ -42,18 +42,18 @@
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_test_active.css);
 @import url(../blocks/sidebar/__icon/_type/sidebar__icon_type_lesson.css);
 
-@import url(../blocks/test/__header/test__header.css);
-@import url(../blocks/test/__title/test__title.css);
+@import url(../blocks/test-header/test-header.css);
+@import url(../blocks/test-header/__title/test-header__title.css);
+@import url(../blocks/test-header/__link-conditions/test-header__link-conditions.css);
+
 @import url(../blocks/test/__question/test__question.css);
 @import url(../blocks/test/__answer/test__answer.css);
-@import url(../blocks/test/__link-conditions/test__link-conditions.css);
 @import url(../blocks/test/__checkbox/test__checkbox.css);
 @import url(../blocks/test/__checkbox/_visible/test__checkbox_visible.css);
 @import url(../blocks/test/__radio/test__radio.css);
 @import url(../blocks/test/__radio/_visible/test__radio_visible.css);
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_disabled/test__button_disabled.css);
-@import url(../blocks/test/__button-container/test__button-container.css);
 @import url(../blocks/test/__answer-item/test__answer-item.css);
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_true.css);
 @import url(../blocks/test/__answer-item/_type/test__answer-item_type_no-choice.css);
