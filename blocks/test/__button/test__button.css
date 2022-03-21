@@ -13,6 +13,7 @@
   line-height: 24px;
   color: #fff;
   background-color: #ff6600;
+  display: flex;
   margin: 0 auto;
   transition: opacity .3s ease-in;
 }

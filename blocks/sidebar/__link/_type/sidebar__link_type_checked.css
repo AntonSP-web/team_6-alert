@@ -1,3 +1,5 @@
-.sidebar__link_type_checked {
-  background: url(../../../../images/sidebar/checked.svg) no-repeat;
+.sidebar__link_type_checked::before {
+  content: url(../../../../images/sidebar/checked.svg);
+  margin-right: 10px;
+  height: 24px;
 }

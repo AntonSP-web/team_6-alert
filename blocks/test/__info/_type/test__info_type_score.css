@@ -1,0 +1,5 @@
+.test__info_type_score {
+  background: url(../../../../images/test/tick.svg) no-repeat;
+  background-size: 20px;
+  padding-left: 32px;
+}

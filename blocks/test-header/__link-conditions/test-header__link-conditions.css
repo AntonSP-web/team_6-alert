@@ -1,4 +1,4 @@
-.test__link-conditions {
+.test-header__link-conditions {
   text-decoration: none;
   color: #212329;
   font-size: 18px;
@@ -7,7 +7,7 @@
   transition: all .3s ease-in;
 }
 
-.test__link-conditions:hover {
+.test-header__link-conditions:hover {
   opacity: .8;
   border-bottom: 1px solid #212329;
 }
