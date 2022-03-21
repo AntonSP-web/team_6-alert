@@ -1,4 +1,5 @@
-.sidebar__link_type_test-active {
-  background: url(../../../../images/sidebar/test_active.svg) no-repeat;
-  color: #f06000;
+.sidebar__link_type_test-active::before {
+  content: url(../../../../images/sidebar/test_active.svg);
+  margin-right: 10px;
+  height: 24px;
 }

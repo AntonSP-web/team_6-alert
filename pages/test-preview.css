@@ -24,6 +24,11 @@
 @import url(../blocks/sidebar/__list/sidebar__list.css);
 @import url(../blocks/sidebar/__link/sidebar__link.css);
 @import url(../blocks/sidebar/__link/_active/sidebar__link_active.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_checked.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_lesson.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_test.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_test-active.css);
+@import url(../blocks/sidebar/__link/_type/sidebar__link_type_video-active.css);
 @import url(../blocks/sidebar/__item/sidebar__item.css);
 @import url(../blocks/sidebar/__wrapper/sidebar__wrapper.css);
 @import url(../blocks/sidebar/__text/sidebar__text.css);

@@ -1,3 +1,5 @@
-.sidebar__link_type_test {
-  background: url(../../../../images/sidebar/test.svg) no-repeat;
+.sidebar__link_type_test::before {
+  content: url(../../../../images/sidebar/test.svg);
+  margin-right: 10px;
+  height: 24px;
 }
